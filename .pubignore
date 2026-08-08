@@ -1,0 +1,19 @@
+# NOTE: once this file exists, `dart pub publish` uses ONLY these rules —
+# it stops also honoring .gitignore. So this must independently cover the
+# usual build/tooling output, not just the extra exclusion below.
+
+# Kept in git for README rendering on GitHub/pub.dev, but excluded from
+# the published package archive — pub.dev fetches README images from the
+# repository (see the `repository:` field in pubspec.yaml), not from the
+# archive, so shipping media here would only bloat every `flutter pub get`.
+doc/
+
+# Standard Flutter/Dart build & tooling output (mirrors .gitignore).
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+coverage/
+*.iml
+*.ipr
+*.iws
+.idea/
