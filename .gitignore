@@ -29,3 +29,7 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 /build/
 /coverage/
+
+# Staged binaries for GitHub Releases — built locally, uploaded manually,
+# never committed (too large for the git history / pub.dev package).
+/release-assets/
