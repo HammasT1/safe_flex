@@ -1,5 +1,6 @@
 # safe_flex
 
+[![CI](https://github.com/HammasT1/safe_flex/actions/workflows/ci.yml/badge.svg)](https://github.com/HammasT1/safe_flex/actions/workflows/ci.yml)
 [![pub package](https://img.shields.io/pub/v/safe_flex.svg)](https://pub.dev/packages/safe_flex)
 [![likes](https://img.shields.io/pub/likes/safe_flex?logo=dart)](https://pub.dev/packages/safe_flex/score)
 [![points](https://img.shields.io/pub/points/safe_flex?logo=dart)](https://pub.dev/packages/safe_flex/score)
